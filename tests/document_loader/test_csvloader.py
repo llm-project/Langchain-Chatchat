@@ -9,7 +9,7 @@ test_files = {
     "ocr_test.csv": str(root_path / "tests" / "samples" / "ocr_test.csv"),
 }
 
-def test_rapidocrloader():
+def test_rapidcsvloader():
     img_path = test_files["ocr_test.csv"]
     from document_loaders import RapidCSVLoader
 
